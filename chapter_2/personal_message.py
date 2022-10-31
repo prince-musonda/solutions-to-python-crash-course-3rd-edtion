@@ -1,0 +1,6 @@
+from cgi import print_exception
+
+
+name = 'prince'
+message = f'Hello {name.title()}, would you like to learn some Python today?'
+print(message)
